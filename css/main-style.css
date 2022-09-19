@@ -60,7 +60,7 @@
   }
 
   body {
-    background: linear-gradient(to top right, #c71616, #f29f05);
+    background: linear-gradient(to top right, #f29f05, #f29f05);
     font-family: var(--base-font-family);
   }
 
@@ -312,7 +312,7 @@
 
   .navbar-toggler .navbar-toggler-icon {
     background: var(--primary-color);
-    transition: background 10ms 300ms ease;
+    transition: background 0ms 300ms ease;
     display: block;
     width: 30px;
     height: 2px;
@@ -462,7 +462,7 @@
       Video         
   -----------------------------------------*/
   .video-container {
-    overflow: hidden;
+    overflow:visible;
     position: relative;
     height:max-content;
     width:100%;
@@ -575,22 +575,33 @@
     width: 100%;
   }
 
+  .container23 {
+    align-items: left , center;
+    position: relative;
+    
+   
+  }
 
   /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
 
   .site-footer {
+    text-align: center;
+    align-items: center;
     border-top: 3px solid #000000;
     padding: 3rem 0;
   }
 
   .site-footer a {
+    text-align: center;
+    align-items: center;
     color: var(--dark-color);
     font-weight: var(--font-weight-bold);
   }
 
   .site-footer p {
+    text-align: center;
     color: var(--dark-color);
     font-weight: var(--font-weight-bold);
     font-size: var(--base-font-size);
@@ -598,6 +609,7 @@
 
   .contact .fa,
   .site-footer .fa {
+    text-align: center;
     color: var(--dark-color);
   }
 
@@ -657,6 +669,7 @@
     .navbar-collapse,
     .site-footer {
       text-align: center;
+      align-items: center;
     }
 
     .schedule-table {

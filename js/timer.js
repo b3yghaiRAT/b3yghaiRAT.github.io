@@ -28,3 +28,15 @@ if(differanceDay >= 0){
 
 
 },1000)
+
+var labels = ['weeks', 'days', 'hours', 'minutes', 'seconds'],
+	TimerCount = (new Date().getFullYear() + 1) + '/01/01',
+	template = _.template( jQuery('#main-example-template').html()),
+	currDate = '00:00:00:00:00',
+	nextDate = '00:00:00:00:00',
+	parser = /([0-9]{2})/gi,
+	$example = jQuery('#main-example');
+
+	if( $example.data("timer").length ){
+		TimerCount = $example.data("timer");	
+	} 
