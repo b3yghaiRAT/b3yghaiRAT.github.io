@@ -111,11 +111,7 @@
     line-height: inherit;
     margin: 0;
   }
-
-  .h10 {
-    font-size: var(--h5-font-size);
-    color: var(--p-color);
-  }
+  
   p {
     color: var(--p-color);
     font-size: var(--p-font-size);
