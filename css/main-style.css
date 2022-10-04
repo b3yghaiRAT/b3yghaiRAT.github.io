@@ -29,9 +29,9 @@
     --white-color:          #5e9ff2;
     --dark-color:           #000000;
     
-    --gray-color:           #a0a0a0;
-    --link-color:           #404040;
-    --p-color:              #000000;
+    --gray-color:           #ffffff;
+    --link-color:           #ffffff;
+    --p-color:              #ffffff;
 
     --base-font-family:     'Plain', sans-serif;
     --font-weight-bold:     bold;
@@ -112,6 +112,10 @@
     margin: 0;
   }
 
+  .h10 {
+    font-size: var(--h5-font-size);
+    color: var(--p-color);
+  }
   p {
     color: var(--p-color);
     font-size: var(--p-font-size);
