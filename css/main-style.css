@@ -360,7 +360,7 @@
      CLASS               
   -----------------------------------------*/
 .class {
-    background: linear-gradient(to top right,#79b7d1, #2403b9);
+    background: linear-gradient(to top right,#2403b9, #041957);;
 }
   .class-info {
     background: var(--white-color);
@@ -486,7 +486,7 @@
   -----------------------------------------*/
 
   .about {
-    background: linear-gradient(to top right, #2403b9, #79b7d1);
+    background: linear-gradient(to top right, #10024b, #28459b);
   }
 
   .about-working-hours {
@@ -509,7 +509,7 @@
     background: linear-gradient(to top right, #b96403, #f29f05); 
     border-radius: 0 0 2px 2px;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    padding: 20px;
+    padding: 5px;
     position: relative;
   }
 
