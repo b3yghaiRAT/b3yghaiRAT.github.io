@@ -44,6 +44,9 @@
     margin-bottom: 1.8em;
   }
   
+  .front img{
+    object-fit: cover;
+  }
   .card .front,
   .card .back {
     backface-visibility: hidden;
@@ -64,7 +67,7 @@
     color: #222;
     font-size: 1.5em;
     line-height: 30px;
-    padding: 0 7px 4px 6px;
+    padding: 0 0px 0px 0px;
   }
   
   .card .back {
@@ -155,6 +158,6 @@
       width: 94.5%;
     }
     .card {
-      height: 260px;
+      height: 370px;
     }
   }
