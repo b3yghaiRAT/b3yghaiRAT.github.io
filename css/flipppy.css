@@ -31,7 +31,8 @@
   
   .card {
     background: #222;
-    -webkit-backface-visibility: hidden ;backface-visibility:hidden;
+    -webkit-backface-visibility: hidden ;
+    backface-visibility:hidden;
     cursor: default;
     height: 300px;
     transform-style: preserve-3d;
