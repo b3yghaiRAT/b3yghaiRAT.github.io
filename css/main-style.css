@@ -53,6 +53,12 @@
     --border-radius-small:  2px;
   }
 
+
+
+  html {height: 100%;
+  }
+
+
   .wrapper {
     width: 1360px;
     margin: 0;
