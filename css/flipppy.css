@@ -27,6 +27,8 @@
   
   .cardBox:hover .card {
     transform: rotateY( 180deg);
+    -webkit-backface-visibility: hidden ;
+    backface-visibility:hidden;
   }
   
   .card {
@@ -52,6 +54,8 @@
   .card .front,
   .card .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden ;
+    backface-visibility:hidden;
     box-sizing: border-box;
     color: white;
     display: block;
