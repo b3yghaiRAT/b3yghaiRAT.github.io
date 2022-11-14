@@ -42,12 +42,14 @@
     top: 0;
     bottom: 0;
     backface-visibility: hidden;
+    object-fit: fill;
   }
   .front {
     background: linear-gradient(to right, #a246ef, #6523fe);
   }
   .front img {
     width: 5em;
+    object-fit: fill;
   }
   .content {
     transform: translateZ(60px);
@@ -71,7 +73,7 @@
   .container:hover .card {
     transform: rotateX(180deg);
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 653px) {
     .section1 {
       padding: 0 1em;
     }

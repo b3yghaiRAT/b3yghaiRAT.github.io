@@ -26,13 +26,19 @@
   }
   
   .cardBox:hover .card {
+    -webkit-transform: rotateY( 180deg);
     transform: rotateY( 180deg);
+    -webkit-backface-visibility: hidden ;
+    backface-visibility:hidden;
   }
   
   .card {
     background: #222;
+    -webkit-backface-visibility: hidden ;
+    backface-visibility:hidden;
     cursor: default;
     height: 300px;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition: transform 0.4s ease 0s;
     width: 100%;
@@ -44,9 +50,14 @@
     margin-bottom: 1.8em;
   }
   
+  .front img{
+    object-fit: cover;
+  }
   .card .front,
   .card .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden ;
+    backface-visibility:hidden;
     box-sizing: border-box;
     color: white;
     display: block;
@@ -64,10 +75,11 @@
     color: #222;
     font-size: 1.5em;
     line-height: 30px;
-    padding: 0 7px 4px 6px;
+    padding: 0 0px 0px 0px;
   }
   
   .card .back {
+    -webkit-transform: rotateY( 180deg);
     transform: rotateY( 180deg);
   }
   
@@ -155,6 +167,6 @@
       width: 94.5%;
     }
     .card {
-      height: 260px;
+      height: 370px;
     }
   }

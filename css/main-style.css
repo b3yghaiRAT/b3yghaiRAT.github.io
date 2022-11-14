@@ -40,18 +40,24 @@
     --font-weight-thin:     100;
 
     --h1-font-size:         48px;
-    --h2-font-size:         40px;
-    --h3-font-size:         28px;
+    --h2-font-size:         36px;
+    --h3-font-size:         24px;
     --h4-font-size:         24px;
     --h5-font-size:         22px;
     --h6-font-size:         22px;
-    --p-font-size:          18px;
+    --p-font-size:          16px;
     --base-font-size:       16px;
     --menu-font-size:       14px;
 
     --border-radius-large:  100%;
     --border-radius-small:  2px;
   }
+
+
+
+  html {height: 100%;
+  }
+
 
   .wrapper {
     width: 1360px;
@@ -129,6 +135,12 @@
     padding: rem 0;
   }
 
+  .scroll{width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    overscroll-behavior:contain;}
+    
+    
 
   /* BUTTON */
 
@@ -576,7 +588,7 @@
   }
 
   .container23 {
-   
+    margin: auto;
     position: relative;
     padding-top: 8%;
     padding-bottom: 8%;
